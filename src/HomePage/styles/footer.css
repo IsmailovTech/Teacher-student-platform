@@ -1,0 +1,42 @@
+.footerContainer{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E91E63;
+    padding: 2rem;
+}
+.footerContainer h1{
+    font-size: 36px;
+    color:#fff;
+    margin:5px 0;
+}
+.footerContainer p{
+    font-size: 24px;
+    color:#fff;
+    line-height: 27px;
+    margin:15px 0;
+}
+.footerLinks{
+    width: 100%;
+}
+.footerLinks ul{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLinks ul li{
+    width: 50px;
+    height: 50px;
+    color:#fff;
+    background-color:#00316B;
+    border-radius: 15px;
+    margin:0 20px;
+    font-size: 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+.mainLogin{
+    height: 100vh;
+    background: url('../../public/images/login-background.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+mainLogin::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    content: '';
+    background-color: rgba(102, 151, 214, 0.7);
+}
+.loginContainer{
+    max-width: 1400px;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3rem;
+}
+.loginContent{
+    width: 30%;
+    background-color:#E91E63;
+    padding: 0 2rem 1rem 2rem;
+}
+.loginTitle{
+    width: 100%;
+    text-align: center;
+}
+.loginContent img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-top:-35px;
+}
+.loginContent h1{
+    color:#fff;
+    font-size: 38px;
+    margin: 20px 0;
+}
+.LoginForm{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    text-align: center;
+}
+.LoginForm label{
+    color:#fff;
+    font-size: 26px;
+    font-weight: 500;
+    float: left;
+    margin: 20px 0 10px 45px;
+}
+.textInp{
+    width: 70%;
+    border:none;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 1px solid #fff;
+    padding: 0.5rem 0;
+    color:#fff;
+    font-size: 18px;
+    margin: 0 0 40px 0; 
+}
+.btnInp{
+    width: 70%;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color:#00316B;
+    color:#fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.LoginForm p{
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0;
+}

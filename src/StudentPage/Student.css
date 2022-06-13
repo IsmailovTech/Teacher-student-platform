@@ -1,0 +1,129 @@
+main{
+    background: url('../../public/images/profile-background-3.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+.studentContainer{
+    max-width: 1400px;
+    margin:0 auto;
+    position: relative;
+}
+.navbarStudent{
+    width: 100%;
+}
+.studentTitle{
+    width: 100%;
+    background-color:#00316B;
+    padding: 1rem 2rem;
+}
+.studentTitle h1{
+    color:#fff;
+}
+.studentWrap{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.studentContent{
+    width: 30% !important;
+    height: 70%;
+    background-color:#E91E63;
+    padding: 0 2rem 1rem 2rem;
+    border-radius: 40px;
+}
+
+.studentContent{
+    width: 100%;
+    text-align: center;
+}
+.studentContent img {
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-top:-45px;
+}
+.studentContent h1{
+    margin: 30px 0;
+    color:#fff;
+}
+.studentContent ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.studentContent ul li{
+    font-size: 18px;
+    margin: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.studentContent ul li i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+.studentContent ul li span {
+    margin: 0 10px;
+}
+.std_btn{
+    border:none;
+    color:#fff;
+    padding: 0.8rem 1rem;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color:#00316B;
+    cursor: pointer;
+}
+
+/* Side bar Styling */
+.bm-burger-bars {
+    background: #fff;
+  }
+.bm-burger-button {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: 20px;
+    top: 20px;
+}
+.bm-menu {
+    width: 100%;
+    background:#00316B;
+    padding: 2rem;
+    font-size: 25px;
+}
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+.bm-cross {
+    display: none;
+    background: #fff;
+}  
+.bm-morph-shape {
+    fill: #373a47;
+}
+  
+.bm-item-list {
+    color: #b8b7ad;
+}
+  
+.bm-overlay {
+    background:rgba(102, 151, 214, 0.7);
+}
+ /* Side bar Styling */
