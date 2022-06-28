@@ -5,17 +5,17 @@ main{
     background-position: top left;
     position: relative;
 }
-.studentContainer{
+.teacherContainer{
     max-width: 1400px;
     margin:0 auto;
     position: relative;
 }
-.navbarStudent{
+.navbarTeacher{
     width: 100%;
     z-index: 999 ;
 }
 
-.studentTitle{
+.teacherTitle{
     width: 100%;
     background-color:#00316B;
     padding: 1rem 1rem;
@@ -23,10 +23,10 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-.studentTitle h1{
+.teacherTitle h1{
     color:#fff;
 }
-.studentWrap{
+.teacherWrap{
     height: 88vh;
     width: 100%;
     display: flex;
@@ -34,50 +34,51 @@ main{
     justify-content: center;
     align-items:center;
 }
-.studentContent{
+.teacherContent{
     width: 30% !important;
+    height: 70%;
     background-color:#E91E63;
     padding: 0 2rem 1rem 2rem;
     border-radius: 40px;
 }
 
-.studentContent{
+.teacherContent{
     width: 100%;
     text-align: center;
 }
-.studentContent img {
-    width: 6rem;
-    height:6rem;
+.teacherContent img {
+    width: 25%;
+    height: 25%;
     border-radius: 50%;
     margin-top:-45px;
 }
-.studentContent h1{
-    margin: 20px 0;
+.teacherContent h1{
+    margin: 30px 0;
     color:#fff;
 }
-.studentContent ul{
+.teacherContent ul{
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:flex-start;
 }
-.studentContent ul li{
+.teacherContent ul li{
     font-size: 18px;
-    margin: 5px;
+    margin: 10px 20px;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items:center;
 }
-.studentContent ul li i {
+.teacherContent ul li i {
     font-size: 20px;
     margin: 0 10px;
 }
-.studentContent ul li span {
+.teacherContent ul li span {
     margin: 0 10px;
 }
-.std_btn{
+.teach_btn{
     border:none;
     color:#fff;
     padding: 0.8rem 1rem;
@@ -87,81 +88,7 @@ main{
     cursor: pointer;
 }
 
-/* Side bar Styling */
-.bm-burger-bars {
-    background: #fff;
-  }
-.bm-burger-button {
-    position: absolute;
-    width: 30px;
-    height: 25px;
-    right: 20px;
-    top: 20px;
-}
-.bm-menu {
-    width: 100%;
-    background:#00316B;
-    padding: 2rem;
-    font-size: 25px;
-}
-.bm-item {
-    display: inline-block;
-    text-decoration: none;
-    color:#fff;
-    transition: color 0.2s;
-    cursor: pointer;
-}
-.bm-cross-button {
-    height: 24px;
-    width: 24px;
-}
-.bm-cross {
-    display: none;
-    background: #fff;
-}  
-.bm-morph-shape {
-    fill: #373a47;
-}
-  
-.bm-item-list {
-    color: #b8b7ad;
-}
-  
-.bm-overlay {
-    background:rgba(102, 151, 214, 0.7);
-}
 
-.main_option{
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-}
-
-
-
-
-.main_option li{
-    list-style: none;
-    font-size: 20px;
-    width: 100%;
-    padding: 20px;
-}
-
-.main_option li:hover{
-    background: #E91E63;
-    transition: 0.2s;
-}
- /* Side bar Styling */
-
-
- .main_bosd{
-    width: 250px;
-    height: 300px;
-    background: blue;
-    transform: translateX(-200px);
- }
 
  .menu-bars{
     /* margin-left: 2rem; */

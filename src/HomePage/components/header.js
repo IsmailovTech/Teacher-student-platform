@@ -8,13 +8,13 @@ const Header = () => {
             <div className="headerContainer">
                   <Sidebar />
               <div className="navbar">
-            <div className="navbarTitle">
-                <h1>Class Manager</h1>
-            </div>             
-              <div className="headerContent">
-                  <h2>Class Manager</h2>
-                  <h1>A Student-Teacher Portal</h1>  
-              </div>
+                  <div className="navbarTitle">
+                      <h1>Class Manager</h1>
+                  </div>             
+                  <div className="headerContent">
+                      <h2>Class Manager</h2>
+                      <h1>A Student-Teacher Portal</h1>  
+                  </div>  
               </div>
             </div>
           </header> 

@@ -1,13 +1,14 @@
 
 import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom';
 
 const SideBarModal = () => {
   return (
     <Menu>
+      
           <ul>
-            <li>Student Menu</li>
-            <li>Teacher Menu</li>
+           <Link to='./login' ><li>Login</li> </Link> 
           </ul>
     </Menu>
     )

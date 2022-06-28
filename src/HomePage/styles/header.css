@@ -24,6 +24,7 @@ header::before{
 }
 .navbar{
     width: 100%;
+    padding-top: 0px !important;
 }
 .navbarTitle{
     width: 100%;

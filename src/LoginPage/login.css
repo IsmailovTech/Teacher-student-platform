@@ -88,3 +88,9 @@ mainLogin::before{
     font-size: 18px;
     margin: 20px 0;
 }
+
+.errMsg{
+    padding: 5px;
+    background: red;
+    color: white;
+}
