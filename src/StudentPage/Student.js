@@ -49,7 +49,7 @@ const Student = () => {
       });
   }, []);
   console.log(state)
-  
+  //
   // var axios = require('axios');
 
   // var config = {
